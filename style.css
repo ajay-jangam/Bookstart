@@ -29,7 +29,7 @@
 }
 
 .navbar-nav{
-    margin-left: 370px;
+    margin-left: 360px;
 }
 
 .navbar-nav .nav-item{
@@ -43,65 +43,30 @@
     color: #121212;
 }
 
-
-.menu .profile{
-    margin-right: 35px;
-}
-
-.menu .searchBox{
-    color: #121212;
-    width: 40px;
-    height: 40px;
-    background: transparent;
+.menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border:none;
-}
-/* 
-.menu .searchBox {
-    position: absolute;
-    top: 23%;
-    left: 85%;
-    transform:  translate(-50%,25%);
-    background: transparent;
-    height: 40px;
-    border-radius: 40px;
-    padding: 0px;
-}
-
-.menu .searchBox:hover > .searchInput {
-    width: 70%; 
-    padding: 0 6px;
-}
-
-.menu .searchBox:hover > .searchButton {
-    background: transparent;
-    color : #2f3640;
-} */
-
-.menu .menu-items{
-    color: #121212;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:none;
+    margin-right: 30px;
 }
 
 .menu .menu-items {
     color: #121212;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
     border:none;
+}
+
+
+.menu .searchBox{
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: self-start;
+    border: none;
+    margin-right: 28px;
 }
 
 .menu .searchInput {
@@ -112,15 +77,37 @@
     padding: 0;
     color: #121212;
     font-size: 16px;
-    transition: 0.4s;
+    transition: 0.8s;
     line-height: 40px;
     width: 0px;
-
+    border: none;
 }
 
-.menu{
+.menu  .searchButton{
+    border: none;
+    background-color: #f8f9fa;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: inherit;
+    padding: 10px;
 }
+
+.menu .searchBox:hover > .searchInput {
+    width: 240px; 
+    padding: 0 6px;
+}
+
+.menu .searchBox:hover > .searchButton {
+    background-color: #f8f9fa;
+    color : #2f3640;
+}
+
+.menu .profile{
+    margin-right: 21px;
+}
+
 
 .product .prev{
     position: absolute;
