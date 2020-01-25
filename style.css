@@ -1,0 +1,1108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar{
+    padding: 20px 0px 20px 60px;
+}
+
+.navbar-brand{
+    margin-left: 73px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    display: contents;
+}
+
+.navbar .brand-logo{
+    margin-right: 5px;
+    width: 2%;
+}
+
+.navbar h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-nav{
+    margin-left: 370px;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+}
+
+
+.menu .profile{
+    margin-right: 35px;
+}
+
+.menu .searchBox{
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+}
+/* 
+.menu .searchBox {
+    position: absolute;
+    top: 23%;
+    left: 85%;
+    transform:  translate(-50%,25%);
+    background: transparent;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0px;
+}
+
+.menu .searchBox:hover > .searchInput {
+    width: 70%; 
+    padding: 0 6px;
+}
+
+.menu .searchBox:hover > .searchButton {
+    background: transparent;
+    color : #2f3640;
+} */
+
+.menu .menu-items{
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+}
+
+.menu .menu-items {
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border:none;
+}
+
+.menu .searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float: left;
+    padding: 0;
+    color: #121212;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.product .prev{
+    position: absolute;
+    z-index: 1;
+    margin-top: 370px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.product .next{
+    position: absolute;
+    z-index: 1;
+    margin-top: 370px;
+    margin-left: 1300px;
+    cursor: pointer;
+    
+}
+
+.product .slider-item{
+    width: 100%;
+}
+
+.product .slick-dots{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+.product .slick-dots li{
+    width: 20px;
+    font-size: 0;
+}
+
+.product .slick-dots button{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    color: #999999;
+    border: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #000000
+}
+
+.text-box{
+    position: absolute;
+    z-index: 1;
+    margin-top: -380px;
+    margin-left: 140px;
+    width: 3%;
+    height: auto;
+}
+
+.text-box .title{
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.text-box p{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.text-box span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 47px;
+
+}
+
+.text-box button{
+    border: none;
+    background-color: #e15b3d;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 55px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.nav .nav-item{
+    border: 1px solid #dbdada;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    color: black;
+}
+
+.nav-pills .nav-link.active{
+    color: white;
+    background-color: #e15b3d;
+}
+
+.nav .nav-link span{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 58px;
+}
+
+.tab-content .col{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    margin: 0px;
+}
+
+.tab-content .row{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.tab-content .book-img{
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+.tab-content .book-writer{
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.tab-content .book-title{
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #000000;
+}
+
+.tab-content .book-price{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.37px;
+    color: #000000;
+}
+
+.tab-content .book-price span{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.connect .container-fluid{
+    background-color: #faf9f6;
+    padding-top: 91px;
+    margin-top: 100px;
+}
+
+.connect .connect-book{
+    background-color: transparent;
+    margin-left: 964px;
+    margin-top: -91px;
+}
+
+.connect .title{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+}
+
+.connect .connect-icon{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 116px;
+}
+
+.connect .item-text{
+    text-align: center;
+    display: flex;
+    width: 78%;
+    margin-left: 23px;
+    margin-top: 49px;
+    margin-bottom: 140px;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    text-align: center;
+    color: #000000;
+}
+
+.featured-author{
+    width: 98%;
+}
+
+.featured-author .title-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+}
+
+@font-face {
+    font-family: Tomatoes;
+    src: url(fonts/TOMATOES-Personal-Use.ttf);
+}
+
+.featured-author .title-2{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.1;
+    font-family: Tomatoes;
+    font-size: 45px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+    margin-bottom: 60px;
+}
+
+.featured-author .row{
+    margin-left: 0px;
+}
+
+.featured-author .author{
+    border-radius: 50%;
+    margin-bottom: 60px;
+    margin-left: 75px;
+}
+
+.featured-author .author-name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    text-align: center;
+    color: #000000;
+}
+
+.featured-author .author-about{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.37px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.newsletter{
+    background-color: #2d496e;
+    width: 100%;
+    padding-top: 68px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+
+.newsletter .plane{
+    margin-left: 970px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.newsletter .title{
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.newsletter .sub-title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.newsletter .psg{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 53px;
+}
+
+.newsletter input{
+    width: 441px;
+}
+
+.form-inline .form-control-name{
+    width: 400px;
+    opacity: 0.5;
+    border: solid 1px #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.form-inline .form-control-email{
+    width: 585px;
+    opacity: 0.5;
+    border: solid 1px #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.form-inline ::placeholder{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.form-inline .btn{
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #e15b3d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: -7px;
+}
+
+.form-inline span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.event .title{
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.event .view{
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2d496e;
+    margin-left: 1230px;
+    margin-top: -40px;
+    text-decoration: underline;
+
+}
+
+.event .event-img {
+    display: block;
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.event .event-title{
+    position: absolute;
+    margin-top: -705px;
+    margin-left: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #000000;
+}
+
+.event .event-info{
+    margin-top: -650px;
+    margin-bottom: 100px;
+    width: 23%;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.event .read{
+    cursor: pointer;
+    margin-left: 60px;
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #000;
+    color: white;
+    margin-bottom: 178px;
+}
+
+.event span{
+    margin: 47px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.event .slider-button{
+    position: absolute;
+    z-index: 1;
+    margin-top: -42px;
+    margin-left: 60px;
+    margin-bottom: 130px;
+}
+
+.event .event-prev{
+    margin-right: 27px;
+}
+
+.blogger .container{
+    background-color: #faf9f6; 
+    margin-top: 160px;
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.blogger .blogger-kiran{
+    position: absolute;
+    margin-left: 75px;
+}
+
+.blogger .blogger-title{
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+    margin-bottom: 61px;
+}
+
+.blogger .blogger-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #000000;
+}
+
+.blogger .blogger-info{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    width: 78%;
+}
+
+.blogger .blogger-read{
+    cursor: pointer;
+    /* margin-left: 60px; */
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #000;
+    color: white;
+    margin-top: 50px;
+}
+
+.blogger span{
+    margin: 47px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.blogger .blogger-cup{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 72px;
+}
+
+.subscription .subsc-2{
+    margin-left: -7%;
+    margin-top: 11%;
+}
+
+.subscription .subsc-text{
+    display: inline-block;
+    text-align: center;
+    width: 44%;
+    margin-left: 178px ;
+    position: absolute;
+    margin-top: 86px;
+}
+
+.subscription .subsc-psg{
+    margin-top: 30px;
+}
+
+.subscription .cards{
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.subscription .card{
+    padding: 60px 88px 40px 88px;
+    box-shadow: 0 19px 38px 0 rgba(0, 0, 0, 0.07);
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.subscription .card:hover{
+    transform: scale(1.2);
+}
+
+
+.subscription .recommand-lable{
+    position: absolute;
+    border: none;
+    background-color: #e15b3d;
+    transform: rotate(-45deg);
+    margin-left: -115px;
+    margin-top: -43px;
+}
+
+.subscription .recommand-lable span{
+    margin: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+.subscription .price-tag{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 24px;
+    font-size: 45px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.subscription .price-tag span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.subscription .pack-name{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #000000;
+}
+
+.subscription .duration{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #121212;
+}
+
+.footer{
+    background-color: #282828;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.footer .about-us{
+    display: block;
+    width: 24%;
+    margin-left: 60px;
+}
+
+.footer .about-title{
+    margin-bottom: 30px;
+}
+
+.footer .about-us span{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+
+.footer .menu-item{
+    margin-bottom: 15px;
+}
+
+.footer .item-link{
+    text-decoration-line: none;
+}
+
+.footer .menu-item span{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.footer .follow-us{
+    margin-left: 150px;
+    width: 37%;
+}
+
+.footer .follow-title{
+    margin-bottom: 30px;
+}
+
+.footer .follow-title span{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #ffffff;
+}
+
+.footer .follow-info{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 34px;
+}
+
+.footer .link{
+    margin-right: 25px;
+}
+
+.footer .social{
+    margin-left: 106px;
+    width: 90%;
+    margin-right: 45px;
+}
+
+.footer .social-title{
+    margin-bottom: 30px;
+}
+
+.footer .social-title span{
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: -0.44px;
+    color: #ffffff;
+}
+
+.footer .row{
+    display: block;
+    margin-left: -15px;
+}
+
+.footer .footer-img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .fas{
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+}
+
+.footer #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    background-color: #e15b3d;
+    padding: 13px 18px 13px 18px;
+    margin-left: 1274px;
+    margin-top: -15px;
+    border: none;
+    z-index: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
