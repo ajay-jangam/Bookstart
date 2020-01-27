@@ -293,6 +293,10 @@
     opacity: 0.4;
 }
 
+.gallery .tab-link{
+    text-decoration-line: none;
+}
+
 .connect .container-fluid{
     background-color: #faf9f6;
     padding-top: 91px;

@@ -1,6 +1,47 @@
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 414px) {
     .searchBox:hover > .searchInput {
         width: 150px;
         padding: 0 6px;
     }
+
+    .navbar .brand-logo{
+        width: 25px;
+        margin-left: -35px;
+    }
+
+    .navbar h1{
+        margin-right: 159px;
+    }
+
+    .navbar .navbar-collapse{
+        margin-left: -60px;
+        width: 100%;
+    }
+
+    .navbar .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+        margin-left: 299px;
+        align-items: flex-end;
+    }
+      
+    .navbar .dropdown-menu{
+        background-color: transparent;
+        border: none;
+        margin-left: -88px;
+        text-align: end;
+        margin-right: -25px;
+    }
+
+    .navbar .dropdown-item{
+    }
+
+    .menu{
+        display: block;
+        margin-left: 370px;
+    }
+
 }
