@@ -629,10 +629,12 @@
 }
 
 .blogger .container{
+    display: flex;
     background-color: #faf9f6; 
     margin-top: 160px;
     padding-top: 97px;
     padding-bottom: 97px;
+    margin-top: 160px;
 }
 
 .blogger .blogger-kiran{

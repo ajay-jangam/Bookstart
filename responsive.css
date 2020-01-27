@@ -149,7 +149,7 @@
         margin-left: 49px;
     }
 
-    /* section featureed-author */
+    /* section featured-author */
 
     .featured-author .title-1{
         font-size: 35px;
@@ -227,7 +227,113 @@
 
     /* section event */
 
-    
+    .event .title{
+        font-size: 35px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .event .view{
+        margin-left: 340px;
+        margin-top: 15px;
+    }
+
+    .event .event-img{
+        width: 350px;
+        margin-top: 54px;
+        margin-left: 450px;
+    }
+
+    .event .event-title{
+        position: relative;
+        font-size: 20px;
+        margin-top: -177px;
+        margin-left: 38px;
+        width: 75%;
+    }
+
+    .event .event-info{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 10%;
+        margin-left: 38px;
+        font-size: 12px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .event .read{
+        margin-left: 38px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 65px;
+        margin-top: 110px;
+    }
+
+    .event span{
+        font-size: 12px;
+        margin: 35px;
+    }
+
+    .event .slider-button{
+        margin-top: -42px;
+        margin-left: 38px;
+        margin-bottom: 0px;
+    }
+
+    .event .event-prev{
+        margin-right: 10px;
+    }
+
+    /* section blogger */
+
+    .blogger .container{
+        margin-top: 60px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: block;
+    }
+
+    .blogger .blogger-kiran{
+        width: 220px;
+        margin-left: 95px;
+    }
+
+    .blogger .blogger-logo{
+        width: 340px;
+        margin-left: 30px;
+    }
+
+    .blogger .blogger-title{
+        font-size: 35px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+
+    .blogger .blogger-name{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .blogger .blogger-info{
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .blogger .blogger-read{
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 105px;
+    }
+
+    .blogger span{
+        font-size: 12px;
+        margin: 35px;
+    }
+
+    /* section subcription */
 }
 
 
