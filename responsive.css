@@ -23,23 +23,22 @@
     }
 
     .navbar-nav{
-        display: flex;
-        margin-left: 299px;
-        align-items: flex-end;
+        margin-left: 0px;
+        align-items: center;
     }
       
     .navbar .dropdown-menu{
         background-color: transparent;
         border: none;
         margin-left: -88px;
-        text-align: end;
-        margin-right: -25px;
+        text-align: center;
+        margin-right: -80px;
     }
 
 
     .menu{
-        display: block;
-        margin-left: 370px;
+        display: flex;
+        margin-left: 245px;
     }
 
     .product .prev{
@@ -95,5 +94,32 @@
         font-size: 12px;
         margin: 20px
     }
+ 
+ 
+    /* section gallery */
+
+    .nav .nav-link span{
+        margin: 27px;
+        font-size: 12px;
+    }
+
+    .tab-content .col{
+        display: inline-grid;
+        justify-content: center;
+    }
+
+    .tab-content .book-writer{
+        font-size: 12px;
+    }
+
+    .tab-content .book-title{
+        font-size: 20px;
+    }
+
+    .tab-content .book-price{
+        font-size: 16px;
+    }
 
 }
+
+
