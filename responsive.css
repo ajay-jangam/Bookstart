@@ -120,6 +120,115 @@
         font-size: 16px;
     }
 
+    /* section connect */
+
+    .connect .container-fluid{
+        margin-top: 0px;
+    }
+
+    .connect .connect-book{
+        margin-left: 201px;
+        margin-top: -153px;
+        opacity: 0.4;
+        width: 200px;
+    }
+
+    .connect .title{
+        font-size: 35px;
+    }
+
+    .connect .connect-icon{
+        margin-top: 40px;
+    }
+
+    .connect .item-text{
+        width: 58%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        margin-left: 49px;
+    }
+
+    /* section featureed-author */
+
+    .featured-author .title-1{
+        font-size: 35px;
+    }
+
+    .featured-author .title-2{
+        font-size: 35px;
+    }
+
+    .featured-author .author{
+        margin-left: 125px;
+        margin-bottom: 40px;
+    }
+
+    .featured-author .author-name{
+        font-size: 20px;
+    }
+
+    .featured-author .author-about{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    /* section newsletter */
+
+    .newsletter{
+        padding-right: 50px;
+    }
+
+    .newsletter .plane{
+        margin-left: 190px;
+        margin-top: -56px;
+        width: 150px;
+    }
+
+    .newsletter .title{
+        font-size: 35px;
+    }
+
+    .newsletter .sub-title{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .newsletter .psg{
+        font-size: 12px;
+    }
+
+    .form-inline .form-control-name{
+        width: 300px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .form-inline .form-control-email{
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 4px;
+    }
+
+    .form-inline .btn{
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .form-inline span{
+        font-size: 12px;
+    }
+
+    /* section event */
+
+    
 }
+
 
 
