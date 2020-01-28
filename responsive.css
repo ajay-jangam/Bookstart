@@ -98,8 +98,14 @@
  
     /* section gallery */
 
+    .nav{
+        display: inline-block;
+        margin-left: 90px;
+        text-align: center;
+    }
+
     .nav .nav-link span{
-        margin: 27px;
+        margin: 68px;
         font-size: 12px;
     }
 
@@ -332,9 +338,113 @@
         font-size: 12px;
         margin: 35px;
     }
+    
+    .blogger .blogger-cup{
+        margin-left: -45px;
+        margin-top: 60px;
+    }
 
-    /* section subcription */
+    /* section subscription */
+
+    .subscription .subsc-1{
+        width: 130px;
+    }
+
+    .subscription .subsc-2{
+        width: 80px;
+        margin-left: -19%;
+        margin-top: 30%;
+    }
+
+    .subscription .subsc-text{
+        margin-top: 140px;
+        margin-left: -20px;
+        width: 70%;
+    }
+
+    .subscription .subsc-title{
+        font-size: 35px;
+    }
+
+    .subscription .subsc-psg{
+        font-size: 16px;
+    }
+
+    .subscription .cards{
+        display: block;
+        margin-top: 126px;
+    }
+
+    .subscription .card{
+        margin-bottom: 90px;
+        width: 68%;
+        margin-left: 70px;
+    }
+
+    .subscription .price-tag{
+        font-size: 35px;
+        margin-left: 40px;
+    }
+
+    .subscription .price-tag span{
+        font-size: 16px;
+    }
+
+    .subscription .pack-name{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .subscription .duration{
+        font-size: 12px;
+    }
+
+    /* section footer */
+
+    .footer{
+        width: 100%;
+    }
+
+    .footer .footer-menu{
+        display: block;
+    }
+
+    .footer .about-us{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: 0px;
+
+    }
+
+    .footer .follow-us{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: 0px;
+
+    }
+
+    .footer .social{
+        margin-bottom: 250px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .footer .row{
+        display: flex;
+        text-align: center;
+        margin-left: 6px;
+        width: 100%;
+    }
+
+    .footer #topBtn{
+        margin-left: 385px;
+    }
+
 }
+    /* Responsive (max-width = 414px) end */
 
 
 

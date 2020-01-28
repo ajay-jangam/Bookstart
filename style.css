@@ -723,6 +723,7 @@
 }
 
 .subscription .cards{
+    display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
     margin-bottom: 150px;
@@ -815,6 +816,11 @@
     background-color: #282828;
     width: 100%;
     padding-top: 50px;
+}
+
+.footer .footer-menu{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer .about-us{
@@ -921,10 +927,6 @@
     margin-bottom: 10px;
 }
 
-.footer .footer-menu{
-    display: flex;
-    justify-content: space-around;
-}
 
 .footer .fas{
     font-weight: 900;
