@@ -1,0 +1,80 @@
+@media screen and (max-width: 360px) {
+
+    .navbar h1{
+        margin-left: -105px;
+    }
+
+    .menu {
+        margin-left: 186px;
+    }
+
+    .nav{
+        margin-left: 60px;
+    }
+
+    .connect .connect-book{
+        margin-left: 143px;
+    }
+
+    .featured-author .author{
+        margin-left: 100px;
+    }
+
+    .newsletter .plane{
+        margin-left: 138px;
+    }
+
+    .event .title{
+        margin-left: 0px;
+    }
+
+    .event .view{
+        margin-left: 310px;
+    }
+
+    .event .event-img{
+        margin-left: 366px;
+    }
+
+    .blogger .blogger-logo{
+        margin-left: 0px;
+    }
+
+    .blogger .blogger-kiran{
+        margin-left: 60px;
+    }
+
+    .blogger .blogger-profile{
+        margin-left: 0%;
+    }
+
+    .blogger .blogger-cup{
+        margin-left: -62px;
+    }
+
+    .subscription .subsc-text{
+        margin-top: 165px;
+        margin-left: -90px;
+        width: 75%;
+    }
+
+    .subscription .cards{
+        margin-top: 170px;
+    }
+
+    .subscription .price-tag{
+        font-size: 31px;
+        margin-left: 25px;
+    }
+
+
+    .subscription .pack-name{
+        font-size: 16px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .footer .row{
+        display: inline;
+    }
+}
